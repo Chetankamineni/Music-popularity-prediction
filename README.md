@@ -1,13 +1,13 @@
 # 🎧 Spotify Popularity Prediction 🎵
 
-Predicting if a song’s gonna pop off or flop – powered by Python, data science, and a lil’ Kaggle magic.  
+Predicting if a song’s gonna pop off or flop – powered by Python, data science, and  Kaggle.  
 Welcome to the future of your next playlist.
 
 ---
 
 ## 📌 Project Overview
 
-This project is all about predicting the popularity of Spotify tracks using machine learning. We took a dataset from Kaggle, crunched the numbers, trained some models, and now we can kinda guess if a song is gonna be a banger or not.
+This project is all about predicting the popularity of Spotify tracks using machine learning. We took a dataset from Kaggle, crunched the numbers, trained some models, and now we can guess if a song is gonna be a banger or not.
 
 ---
 
