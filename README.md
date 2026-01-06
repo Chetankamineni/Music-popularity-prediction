@@ -1,59 +1,64 @@
-# 🎧 Spotify Popularity Prediction 🎵
+# Music Popularity Prediction
 
-Predicting if a song’s gonna pop off or flop – powered by Python, data science, and  Kaggle.  
-Welcome to the future of your next playlist.
-
----
-
-## 📌 Project Overview
-
-This project is all about predicting the popularity of Spotify tracks using machine learning. We took a dataset from Kaggle, crunched the numbers, trained some models, and now we can guess if a song is gonna be a banger or not.
+This project focuses on predicting the popularity of Spotify tracks using machine learning techniques. By analyzing a dataset of thousands of songs, the model determines whether a track is likely to be successful based on its intrinsic audio characteristics.
 
 ---
 
-## 📂 Dataset
+## Project Overview
 
-**Source:** [Kaggle - Spotify Tracks Dataset](https://www.kaggle.com/)  
-Contains audio features of thousands of tracks including:
-
-- 🎶 danceability
-- 🧠 acousticness
-- ⚡ energy
-- 🎤 speechiness
-- 💃 tempo
-- 🔁 duration
-- …and more
-
-Target variable: `popularity` score (0–100)
+The primary objective is to build a predictive framework to estimate song popularity scores (0–100) using Python and data science principles. The project involves data preprocessing, exploratory analysis, and model evaluation to identify the features that define a popular track.
 
 ---
 
-## 🛠️ Tech Stack
+## Dataset
 
-- Python 🐍
-- Pandas & NumPy 📊
-- Scikit-learn 🧠
-- Matplotlib & Seaborn 📈
-- Jupyter Notebook 📓
+**Source:**  [Spotify Tracks Dataset](https://www.kaggle.com/)  
+The dataset contains key audio features for thousands of tracks, including:
 
----
+* **Danceability**: Suitability of a track for dancing.
+* **Acousticness**: Confidence measure of whether the track is acoustic.
+* **Energy**: Perceptual measure of intensity and activity.
+* **Speechiness**: Presence of spoken words in a track.
+* **Tempo**: Overall estimated beats per minute (BPM).
+* **Duration**: The length of the track.
 
-## 🚀 How It Works
-
-1. Cleaned and preprocessed the data (nulls, dtypes, scaling, etc.)
-2. Did some fire EDA to understand what makes a song popular
-3. Trained ML models like:
-   - Logistic Regression
-   - Random Forest
-   - Gradient Boosting
-4. Evaluated model performance using accuracy, precision, recall, etc.
-5. Made predictions on unseen data
+**Target variable:** `popularity` score (0–100).
 
 ---
 
-## 📁 How to Use
+## Technical Stack
 
-1. Clone the repo:
+* **Language**: Python
+* **Data Manipulation**: Pandas and NumPy
+* **Machine Learning**: Scikit-learn
+* **Visualization**: Matplotlib and Seaborn
+* **Environment**: Jupyter Notebook / Google Colab
+
+---
+
+## Methodology
+
+1. **Data Preprocessing**: Cleaning the dataset, handling null values, managing data types, and scaling features.
+2. **Exploratory Data Analysis (EDA)**: Conducting in-depth analysis to understand the correlation between audio features and song success.
+3. **Model Training**: Implementing several machine learning models, including:
+   * Logistic Regression
+   * Random Forest
+   * Gradient Boosting
+4. **Evaluation**: Assessing performance using metrics such as accuracy, precision, and recall.
+5. **Inference**: Applying the trained model to make predictions on unseen data.
+
+---
+
+## How to Use
+
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/spotify-popularity-prediction.git
-   cd spotify-popularity-prediction
+   git clone https://github.com/Chetankamineni/music-popularity
+   cd music-popularity
+   ```
+3. **Install dependencies**: You need to have the following Python libraries installed:
+   
+   ```bash
+   pip install pandas scikit-learn matplotlib seaborn
+   ```
+5. **Execute the notebook**: Open `spotify_pop_predictor.ipynb` in a Jupyter environment to view the full analysis and run the training pipeline.
